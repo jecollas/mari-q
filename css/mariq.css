@@ -44,9 +44,24 @@ p {
   line-height: 1.5;
 }
 
+.links p {
+  font-size: 25px;
+  line-height: 2;
+}
+
+.links ul {
+  font-size: 25px;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.indent {
+  text-indent: 2em;
+}
+
 /* links */
 
-ul {
+.navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -58,7 +73,7 @@ ul {
   top: 0;
 }
 
-li {
+.navbar li {
   float: left;
   font-size: 20px;
   padding-left: 2em;
@@ -77,6 +92,11 @@ a {
   color: #191A1B;
 }
 
+.active {
+  color: #D969C4;
+}
+
+.navbar a:hover,
 a:hover {
   color: #D969C4;
   text-decoration: none;
@@ -140,28 +160,9 @@ img.landscape:hover {
   padding: 2em;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
 /* The Modal (background) */
 .modal {
   display: none;
-  position: fixed;
   z-index: 1;
   padding-top: 100px;
   left: 0;
@@ -169,7 +170,8 @@ img.landscape:hover {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: black;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
 }
 
 /* Modal Content */
@@ -182,13 +184,34 @@ img.landscape:hover {
   max-width: 1200px;
 }
 
-/* The Close Button */
+.mySlides {
+  margin:auto;
+  display: block;
+  height: inherit;
+  width: auto;
+}
+
+.mySlides img {
+  max-height: 640px;
+  width: auto;
+  align-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
 .close {
   color: white;
   position: absolute;
   top: 10px;
   right: 25px;
-  font-size: 35px;
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -196,14 +219,6 @@ img.landscape:hover {
 .close:focus {
   color: #999;
   text-decoration: none;
-  cursor: pointer;
-}
-
-.mySlides {
-  display: none;
-}
-
-.cursor {
   cursor: pointer;
 }
 
@@ -237,27 +252,31 @@ img.landscape:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-img {
-  margin-bottom: -4px;
-}
-
 .caption-container {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
   text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
 }
 
-.active,
-.demo:hover {
-  opacity: 1;
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }
