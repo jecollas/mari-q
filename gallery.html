@@ -7,7 +7,6 @@
   <link href="https://fonts.googleapis.com/css?family=Megrim|Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="ha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="css/mariq.css" rel="stylesheet">
-
 </head>
 
 <body>
@@ -25,8 +24,8 @@
   <nav>
     <div class="navbar">
       <ul>
-        <li class="stuff">
-          <a href="aboutme.html">About Me</a>
+        <li>
+          <a href="index.html">About Me</a>
         </li>
         <li>
           <a href="writtenworks.html">Written Works</a>
@@ -44,88 +43,130 @@
     </div>
   </nav>
 
-  <h2>Digital Art</h2>
+  <h2 id="topside">Artist Gallery</h2>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <div class="nava">
+    <ul>
+      <li>
+        <a href="#digital-art"><h3>Digital Art</h3></a>
+      </li>
+      <li>
+        <a href="#traditional-art"><h3>Traditional Art</h3></a>
+      </li>
+    </ul>
+  </div>
+
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/xtriad copy.png" alt="The X-Triad">
+    </div>
+    <div class="carousel-item">
+      <img src="img/dotgradientbr copy.png" alt="Purple Gradient Background">
+    </div>
+    <div class="carousel-item">
+      <img src="img/hella-ace copy.png" alt="I'm Hella Asexual">
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+  <h2 id="digital-art">Digital Art</h2>
 
   <div class="row">
     <div class="column">
-      <img src="img/ashs-bday.png" onclick="openModal();currentSlide(1)" class="portrait">
+      <img src="img/ashs-bday.png" onclick="openModal();currentSlide(1)"  alt="Ash" class="portrait">
         <div class="info">July, 2017</div>
-      <img src="img/campwars-sunrise.png" onclick="openModal();currentSlide(2)" class="landscape">
+      <img src="img/campwars-sunrise.png" onclick="openModal();currentSlide(2)" alt="Camp Wars Sunrise" class="landscape">
         <div class="info">September, 2016</div>
-      <img src="img/hella-ace.png" onclick="openModal();currentSlide(3)" class="landscape">
+      <img src="img/hella-ace.png" onclick="openModal();currentSlide(3)" alt="I'm Hella Asexual" class="landscape">
         <div class="info">August, 2017</div>
       </div>
 
     <div class="column">
-      <img src="img/heirofrage.png" onclick="openModal();currentSlide(4)" class="portrait">
+      <img src="img/heirofrage.png" onclick="openModal();currentSlide(4)" alt="Melissa Price, Heir of Rage" class="portrait">
         <div class="info">April, 2019</div>
-      <img src="img/dotgradientbr.png" onclick="openModal();currentSlide(5)" class="landscape">
+      <img src="img/dotgradientbr.png" onclick="openModal();currentSlide(5)" alt="Purple Gradient Background" class="landscape">
         <div class="info">August, 2017</div>
-      <img src="img/guardtan.png" onclick="openModal();currentSlide(6)" class="portrait">
+      <img src="img/guardtan.png" onclick="openModal();currentSlide(6)" alt="2017 Lifeguard Tan" class="portrait">
         <div class="info">August, 2017</div>
     </div>
 
     <div class="column">
-      <img src="img/kda.png" onclick="openModal();currentSlide(7)" class="landscape">
+      <img src="img/kda.png" onclick="openModal();currentSlide(7)" alt="It's K/DA" class="landscape">
         <div class="info">November, 2018</div>
-      <img src="img/merla.png" onclick="openModal();currentSlide(8)" class="portrait">
+      <img src="img/merla.png" onclick="openModal();currentSlide(8)" alt="Doodled Merla Dappledown" class="portrait">
         <div class="info">May, 2018</div>
-      <img src="img/sab.png" onclick="openModal();currentSlide(9)" class="portrait">
+      <img src="img/sab.png" onclick="openModal();currentSlide(9)" alt="Sab" class="portrait">
         <div class="info">May, 2017</div>
     </div>
 
     <div class="column">
-      <img src="img/space-race.png" onclick="openModal();currentSlide(10)" class="landscape">
+      <img src="img/space-race.png" onclick="openModal();currentSlide(10)" alt="Space Race Icon" class="landscape">
         <div class="info">July, 2016</div>
-      <img src="img/tired.png" onclick="openModal();currentSlide(11)" class="portrait">
+      <img src="img/tired.png" onclick="openModal();currentSlide(11)" alt="I'm Kinda Tired" class="portrait">
         <div class="info">May, 2017</div>
-      <img src="img/xtriad.png" onclick="openModal();currentSlide(12)" class="landscape">
+      <img src="img/xtriad.png" onclick="openModal();currentSlide(12)" alf="The X-Triad" class="landscape">
         <div class="info">April, 2019</div>
     </div>
   </div>
 
-  <h2>Traditional Art</h2>
+  <h2 id="traditional-art">Traditional Art</h2>
 
   <div class="row">
     <div class="column">
-      <img src="img/alienqueen.jpg" onclick="openModal();currentSlide(13)" class="portrait">
+      <img src="img/alienqueen.jpg" onclick="openModal();currentSlide(13)" alt="Alien Queen" class="portrait">
         <div class="info">September, 2018</div>
-      <img src="img/bea-sketch.jpg" onclick="openModal();currentSlide(14)" class="portrait">
+      <img src="img/bea-sketch.jpg" onclick="openModal();currentSlide(14)" alt="Xhosa Dress Sketch" class="portrait">
         <div class="info">April 2019</div>
-      <img src="img/weaponx.JPG" onclick="openModal();currentSlide(15)" class="portrait">
+      <img src="img/weaponx.JPG" onclick="openModal();currentSlide(15)" alt="Weapon X c.1941" class="portrait">
         <div class="info">January, 2019</div>
       </div>
 
       <div class="column">
-        <img src="img/cutelilthing.jpg" onclick="openModal();currentSlide(16)" class="landscape">
+        <img src="img/cutelilthing.jpg" onclick="openModal();currentSlide(16)" alt="Cute Lil' Doodle" class="landscape">
           <div class="info">June, 2018</div>
-        <img src="img/danimermaid.JPG" onclick="openModal();currentSlide(17)" class="portrait">
+        <img src="img/danimermaid.JPG" onclick="openModal();currentSlide(17)" alt="Mermaid" class="portrait">
           <div class="info">April, 2016</div>
-        <img src="img/garbagegirl.JPG" onclick="openModal();currentSlide(18)" class="portrait">
+        <img src="img/garbagegirl.JPG" onclick="openModal();currentSlide(18)" alt="Garbage Girl" class="portrait">
           <div class="info">September, 2018</div>
-        <img src="img/onyx.JPG" onclick="openModal();currentSlide(19)" class="portrait">
+        <img src="img/onyx.JPG" onclick="openModal();currentSlide(19)" alt="Onyx" class="portrait">
           <div class="info">January, 2019</div>
       </div>
 
       <div class="column">
-        <img src="img/illbewaiting.jpg" onclick="openModal();currentSlide(20)" class="portrait">
+        <img src="img/illbewaiting.jpg" onclick="openModal();currentSlide(20)" alt="I'll Be Waiting" class="portrait">
           <div class="info">January, 2019</div>
-        <img src="img/merlaref.JPG" onclick="openModal();currentSlide(21)" class="portrait">
+        <img src="img/merlaref.JPG" onclick="openModal();currentSlide(21)" alt="Merla Dappledown" class="portrait">
           <div class="info">September, 2017</div>
-        <img src="img/mx-and-mrs-x.jpg" onclick="openModal();currentSlide(22)" class="portrait">
+        <img src="img/mx-and-mrs-x.jpg" onclick="openModal();currentSlide(22)" alt="Mx. and Mrs. X" class="portrait">
           <div class="info">February, 2019</div>
-        <img src="img/blastme.jpg" onclick="openModal();currentSlide(23)" class="landscape">
+        <img src="img/blastme.jpg" onclick="openModal();currentSlide(23)" alt="C'mon, Blast Me" class="landscape">
           <div class="info">January, 2019</div>
       </div>
 
       <div class="column">
-        <img src="img/sketchmerlahead.JPG" onclick="openModal();currentSlide(24)" class="landscape">
+        <img src="img/sketchmerlahead.JPG" onclick="openModal();currentSlide(24)" alt="Merla Sketch" class="landscape">
           <div class="info">October, 2018</div>
-        <img src="img/thisonegay.JPG" onclick="openModal();currentSlide(25)" class="landscape">
+        <img src="img/thisonegay.JPG" onclick="openModal();currentSlide(25)" alt="Pink and Blue" class="landscape">
           <div class="info">April, 2016</div>
-        <img src="img/borntorun.JPG" onclick="openModal();currentSlide(26)" class="portrait">
+        <img src="img/borntorun.JPG" onclick="openModal();currentSlide(26)" alt="Baby, We Were Born to Run" class="portrait">
           <div class="info">January, 2019</div>
-        <img src="img/tigerseye.jpg" onclick="openModal();currentSlide(27)" class="portrait">
+        <img src="img/tigerseye.jpg" onclick="openModal();currentSlide(27)" alt="Tiger's Eye" class="portrait">
           <div class="info">January, 2019</div>
       </div>
     </div>
@@ -202,6 +243,19 @@
 
       </div>
 
+    <br>  
+
+    <div class="topside">
+      <a href="#topside">
+        <!-- <img src="img/wow.png"> -->
+        <p>Back to Top</p></a>
+    </div>
+
+    <br>
+
     <script src="js/mari-q.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
