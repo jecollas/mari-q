@@ -23,7 +23,18 @@ h2 {
   font-family: 'Megrim', cursive;
   text-align: center;
   font-size: 50px;
-  padding-top: .5em;
+  padding-top: 1em;
+}
+
+h3 {
+  font-family: 'Megrim', cursive;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 1em;
+}
+
+h4 {
+  text-align: center;
 }
 
 body {
@@ -38,7 +49,9 @@ nav {
 }
 
 p {
-  margin: 2em;
+  margin: .5em;
+  margin-left: 2em;
+  margin-right: 2em;
   font-size: 20px;
   text-indent: 2em;
   line-height: 1.5;
@@ -66,10 +79,7 @@ p {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #F1F1F1;
   color: #191A1B;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
 }
 
@@ -77,6 +87,12 @@ p {
   float: left;
   font-size: 20px;
   padding-left: 2em;
+}
+
+.nava li {
+  float: left;
+  width: 50%;
+  list-style-type: none;
 }
 
 li a {
@@ -92,6 +108,10 @@ a {
   color: #191A1B;
 }
 
+.links a {
+  text-align: inherit;
+}
+
 .active {
   color: #D969C4;
 }
@@ -104,6 +124,17 @@ a:hover {
 
 a:active {
   color: #84339A;
+}
+
+.carousel-item img {
+   max-height: 75%;
+   max-width: 75%;
+   display: block;
+   margin-top: 2em;
+   margin-left: auto;
+   margin-right: auto;
+   border: 2px;
+   border-radius: 12px;
 }
 
 /* images */
@@ -195,7 +226,7 @@ img.landscape:hover {
   max-height: 640px;
   width: auto;
   align-content: center;
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   right: 0;
   margin: auto;
@@ -211,7 +242,7 @@ img.landscape:hover {
   position: absolute;
   top: 10px;
   right: 25px;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: bold;
 }
 
@@ -261,6 +292,22 @@ img.landscape:hover {
   color: #ccc;
   padding: 10px 0;
   height: 150px;
+}
+
+.topside img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+  margin-bottom: 2em;
+  min-width: 180px;
+  max-width: 180px;
+}
+
+.topside p {
+  text-align: center;
+  margin-bottom: 2em;
+  font-size: 25px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
