@@ -1,0 +1,123 @@
+
+gallery1:
+#gallery1
+- url: tb/ashs-bday.png
+  alt: Ash
+  caption: July, 2017
+  orientation: portrait
+
+- url: tb/campwars-sunrise.png
+  alt: Camp Wars Sunrise
+  caption: September, 2016
+  orientation: landscape
+
+- url: tb/hella-ace.png
+  alt: I'm Hella Asexual
+  caption: August, 2017
+  orientation: landscape
+
+- url: tb/wildlifepaintsketch.png
+  alt: Painting Sketch
+  caption: May, 2019
+  orientation: portrait
+
+- url: tb/spaceace.png
+  alt: The Space Ace
+  caption: April, 2017
+  orientation: portrait
+
+- url: tb/judgingyou.png
+  alt: Women in Progress
+  caption: September, 2019
+  orientation: landscape
+
+gallery2:
+#gallery2
+- url: tb/heirofrage.png
+  alt: Melissa Price, Heir of Rage
+  caption: April, 2019
+  orientation: portrait
+
+- url: tb/dotgradientbr.png
+  alt: Purple Gradient Background
+  caption: August, 2017
+  orientation: landscape
+
+- url: tb/guardtan.png
+  alt: Lifeguard Tan
+  caption: August, 2017
+  orientation: portrait
+
+- url: tb/beokay.png
+  alt: I'll Be Okay
+  caption: June, 2018
+  orientation: portrait
+
+- url: tb/eugeniagift.png
+  alt: Eugenia's Gift
+  caption: February, 2017
+  orientation: portrait
+
+gallery3:
+#gallery3
+- url: tb/kda.png
+  alt: It's K/DA
+  caption: November, 2018
+  orientation: landscape
+
+- url: tb/merla.png
+  alt: Doodled Merla Dappledown
+  caption: May, 2018
+  orientation: portrait
+
+- url: tb/sab.png
+  alt: Sab
+  caption: May, 2017
+  orientation: portrait
+
+- url: tb/studentpastel.png
+  alt: A Study in Pastel
+  caption: September, 2016
+  orientation: landscape
+
+- url: tb/melissadany.png
+  alt: Painting Sketch in Blue
+  caption: September, 2019
+  orientation: portrait
+
+- url: tb/geepaintsketch.png
+  alt: Portrait Sketch
+  caption: September, 2019
+  orientation: portrait
+
+gallery4:
+#gallery4
+- url: tb/space-race.png
+  alt: Space Race Icon
+  caption: July, 2016
+  orientation: landscape
+
+- url: tb/tired.png
+  alt: I'm Kinda Tired
+  caption: May, 2017
+  orientation: portrait
+
+- url: tb/xtriad.png
+  alt: The X-Triad
+  caption: April, 2019
+  orientation: landscape
+
+- url: tb/pokemontrainer.png
+  alt: Pokemon Go!
+  caption: July, 2016
+  orientation: portrait
+
+- url: tb/whoknows.png
+  alt: Self Portrait Sketch
+  caption: September, 2019
+  orientation: landscape
+
+- url: tb/soulmatespell.png
+  alt: Sigil Painting
+  caption: May, 2019
+  orientation: portrait

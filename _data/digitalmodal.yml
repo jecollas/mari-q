@@ -1,0 +1,96 @@
+
+#gallery1
+- url: img/ashs-bday.png
+  caption: Ash
+  orientation: portrait
+
+- url: img/campwars-sunrise.png
+  caption: Camp Wars Sunrise
+  orientation: landscape
+
+- url: img/hella-ace.png
+  caption: I'm Hella Asexual
+  orientation: landscape
+
+- url: img/wildlifepaintsketch.png
+  caption: Painting Sketch
+  orientation: portrait
+
+- url: img/spaceace.png
+  caption: The Space Ace
+  orientation: portrait
+
+- url: img/judgingyou.png
+  caption: Women in Progress
+  orientation: landscape
+
+#gallery2
+- url: img/heirofrage.png
+  caption: Melissa Price, Heir of Rage
+  orientation: portrait
+
+- url: img/dotgradientbr.png
+  caption: Purple Gradient Background
+  orientation: landscape
+
+- url: img/guardtan.png
+  caption: Lifeguard Tan
+  orientation: portrait
+
+- url: img/beokay.png
+  caption: I'll Be Okay
+  orientation: portrait
+
+- url: img/eugeniagift.png
+  caption: Eugenia's Gift
+  orientation: portrait
+
+#gallery3
+- url: img/kda.png
+  caption: It's K/DA
+  orientation: landscape
+
+- url: img/merla.png
+  caption: Doodled Merla Dappledown
+  orientation: portrait
+
+- url: img/sab.png
+  caption: Sab
+  orientation: portrait
+
+- url: img/studentpastel.png
+  caption: A Study in Pastel
+  orientation: landscape
+
+- url: img/melissadany.png
+  caption: Painting Sketch in Blue
+  orientation: portrait
+
+- url: img/geepaintsketch.png
+  caption: Portrait Sketch
+  orientation: portrait
+
+#gallery4
+- url: img/space-race.png
+  caption: Space Race Icon
+  orientation: landscape
+
+- url: img/tired.png
+  caption: I'm Kinda Tired
+  orientation: portrait
+
+- url: img/xtriad.png
+  caption: The X-Triad
+  orientation: landscape
+
+- url: img/pokemontrainer.png
+  caption: Pokemon Go!
+  orientation: portrait
+
+- url: img/whoknows.png
+  caption: Self Portrait Sketch
+  orientation: landscape
+
+- url: img/soulmatespell.png
+  caption: Sigil Painting
+  orientation: portrait

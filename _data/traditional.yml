@@ -1,0 +1,223 @@
+
+gallery1:
+#gallery1
+- url: tb/alienqueen.jpg
+  alt: Alien Queen
+  caption: September, 2018
+  orientation: portrait
+
+- url: tb/bea-sketch.jpg
+  alt: Xhosa Dress Sketch
+  caption: April, 2019
+  orientation: portrait
+
+- url: tb/weaponx.JPG
+  alt: Weapon X c.1941
+  caption: January, 2019
+  orientation: portrait
+
+- url: tb/beholding.jpg
+  alt: Better to Behold
+  caption: October, 2019
+  orientation: portrait
+
+- url: tb/inktober1.jpg
+  alt: Inktober 2019, Day 1
+  caption: Inktober Day 1, 2019
+  orientation: portrait
+
+- url: tb/inktober5.jpg
+  alt: Inktober 2019, Day 5
+  caption: Inktober Day 5, 2019
+  orientation: portrait
+
+- url: tb/inktober9.jpg
+  alt: Inktober 2019, Day 9
+  caption: Inktober Day 9, 2019
+  orientation: portrait
+
+- url: tb/inktober13.jpg
+  alt: Inktober 2019, Day 13
+  caption: Inktober Day 13, 2019
+  orientation: portrait
+
+- url: tb/inktober17.jpg
+  alt: Inktober 2019, Day 17
+  caption: Inktober Day 17, 2019
+  orientation: portrait
+
+- url: tb/inktober21.jpg
+  alt: Inktober 2019, Day 21
+  caption: Inktober Day 21, 2019
+  orientation: portrait
+
+gallery2:
+#gallery2
+- url: tb/cutelilthing.jpg
+  alt: Cute Lil' Doodle
+  caption: June, 2018
+  orientation: landscape
+
+- url: tb/danimermaid.JPG
+  alt: Mermaid
+  caption: April, 2016
+  orientation: portrait
+
+- url: tb/garbagegirl.JPG
+  alt: Garbage Girl
+  caption: September, 2018
+  orientation: portrait
+
+- url: tb/onyx.JPG
+  alt: Onyx
+  caption: January, 2019
+  orientation: portrait
+
+- url: tb/comingoutday2019.jpg
+  alt: National Coming Out Day, 2019
+  caption: October, 2019
+  orientation: landscape
+
+- url: tb/inktober2.jpg
+  alt: Inktober 2019, Day 2
+  caption: Inktober Day 2, 2019
+  orientation: portrait
+
+- url: tb/inktober6.jpg
+  alt: Inktober 2019, Day 6
+  caption: Inktober Day 6, 2019
+  orientation: portrait
+
+- url: tb/inktober10.jpg
+  alt: Inktober 2019, Day 10
+  caption: Inktober Day 10, 2019
+  orientation: portrait
+
+- url: tb/inktober14.jpg
+  alt: Inktober 2019, Day 14
+  caption: Inktober Day 14, 2019
+  orientation: portrait
+
+- url: tb/inktober18.jpg
+  alt: Inktober 2019, Day 18
+  caption: Inktober Day 18, 2019
+  orientation: portrait
+
+- url: tb/inktober22.jpg
+  alt: Inktober 2019, Day 22
+  caption: Inktober Day 22, 2019
+  orientation: portrait
+
+gallery3:
+#gallery3
+- url: tb/illbewaiting.jpg
+  alt: I'll Be Waiting
+  caption: January, 2019
+  orientation: portrait
+
+- url: tb/merlaref.JPG
+  alt: Merla Dappledown
+  caption: September, 2017
+  orientation: portrait
+
+- url: tb/mx-and-mrs-x.jpg
+  alt: Mx. and Mrs. X
+  caption: February, 2019
+  orientation: portrait
+
+- url: tb/blastme.jpg
+  alt: C'mon, Blast Me
+  caption: January, 2019
+  orientation: landscape
+
+- url: tb/watcherscrown.jpg
+  alt: The Watcher's Crown
+  caption: October, 2019
+  orientation: portrait
+
+- url: tb/inktober3.jpg
+  alt: Inktober 2019, Day 3
+  caption: Inktober Day 3, 2019
+  orientation: portrait
+
+- url: tb/inktober7.jpg
+  alt: Inktober 2019, Day 7
+  caption: Inktober Day 7, 2019
+  orientation: portrait
+
+- url: tb/inktober11.jpg
+  alt: Inktober 2019, Day 11
+  caption: Inktober Day 11, 2019
+  orientation: portrait
+
+- url: tb/inktober15.jpg
+  alt: Inktober 2019, Day 15
+  caption: Inktober Day 15, 2019
+  orientation: portrait
+
+- url: tb/inktober19.jpg
+  alt: Inktober 2019, Day 19
+  caption: Inktober Day 19, 2019
+  orientation: portrait
+
+- url: tb/inktober23.jpg
+  alt: Inktober 2019, Day 23
+  caption: Inktober Day 23, 2019
+  orientation: portrait
+
+gallery4:
+#gallery4
+- url: tb/sketchmerlahead.JPG
+  alt: Merla Sketch
+  caption: October, 2018
+  orientation: landscape
+
+- url: tb/thisonegay.JPG
+  alt: Pink and Blue
+  caption: April, 2016
+  orientation: landscape
+
+- url: tb/borntorun.JPG
+  alt: Baby, We Were Born to Run
+  caption: January, 2019
+  orientation: portrait
+
+- url: tb/tigerseye.jpg
+  alt: Tiger's Eye
+  caption: January, 2019
+  orientation: portrait
+
+- url: tb/comicover.jpg
+  alt: Wolverine Vol. 12
+  caption: January, 2019
+  orientation: portrait
+
+- url: tb/inktober4.jpg
+  alt: Inktober 2019, Day 4
+  caption: Inktober Day 4, 2019
+  orientation: portrait
+
+- url: tb/inktober8.jpg
+  alt: Inktober 2019, Day 8
+  caption: Inktober Day 8, 2019
+  orientation: portrait
+
+- url: tb/inktober12.jpg
+  alt: Inktober 2019, Day 12
+  caption: Inktober Day 12, 2019
+  orientation: portrait
+
+- url: tb/inktober16.jpg
+  alt: Inktober 2019, Day 16
+  caption: Inktober Day 16, 2019
+  orientation: portrait
+
+- url: tb/inktober20.jpg
+  alt: Inktober 2019, Day 20
+  caption: Inktober Day 20, 2019
+  orientation: portrait
+
+- url: tb/violetweb.jpg
+  alt: Violet Web
+  caption: December, 2018
+  orientation: portrait
