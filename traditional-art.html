@@ -8,6 +8,11 @@ title: Traditional Art
 {% assign g3count = site.data.traditional.gallery3.size %}
 {% assign g4count = site.data.traditional.gallery4.size %}
 
+{% assign g5count = site.data.inktober2019.gallery1.size %}
+{% assign g6count = site.data.inktober2019.gallery2.size %}
+{% assign g7count = site.data.inktober2019.gallery3.size %}
+{% assign g8count = site.data.inktober2019.gallery4.size %}
+
 <h2 id="traditional-art">Traditional Art</h2>
 
 <div class="row">
@@ -52,10 +57,64 @@ title: Traditional Art
   </div>
 </div>
 
+<h2>Inktober, 2019</h2>
+
+<div class="row">
+  <div class="column">
+    {% for art in site.data.inktober2019.gallery1 %}
+    <img src="{{ art.url }}" onclick="openModal();art({{ forloop.index | plus:g1count | plus:g2count | plus:g3count | plus:g4count }})"
+    class="{{ art.orientation }}" alt="{{ art.alt }}">
+      <div class="info">
+        {{ art.caption }}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="column">
+    {% for art in site.data.inktober2019.gallery2 %}
+    <img src="{{ art.url }}" onclick="openModal();art({{ forloop.index | plus:g1count | plus:g2count | plus:g3count | plus:g4count | plus:g5count }})"
+    class="{{ art.orientation }}" alt="{{ art.alt }}">
+      <div class="info">
+        {{ art.caption }}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="column">
+    {% for art in site.data.inktober2019.gallery3 %}
+    <img src="{{ art.url }}" onclick="openModal();art({{ forloop.index | plus:g1count | plus:g2count | plus:g3count | plus:g4count | plus:g5count | plus:g6count }})"
+    class="{{ art.orientation }}" alt="{{ art.alt }}">
+      <div class="info">
+        {{ art.caption }}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="column">
+    {% for art in site.data.inktober2019.gallery4 %}
+    <img src="{{ art.url }}" onclick="openModal();art({{ forloop.index | plus:g1count | plus:g2count | plus:g3count | plus:g4count | plus:g5count | plus:g6count | plus:g7count }})"
+    class="{{ art.orientation }}" alt="{{ art.alt }}">
+      <div class="info">
+        {{ art.caption }}
+      </div>
+    {% endfor %}
+  </div>
+
+</div>
+
 <div id="artModal" class="modal">
   <span class="close cursor" onclick="closeModal()">&times;</span>
 
   {% for modal in site.data.traditionalmodal %}
+  <div class="myartModal">
+    <img src="{{ modal.url }}" alt="{{ modal.caption }}">
+    <div class="modal-info">
+      {{ modal.caption }}
+    </div>
+  </div>
+  {% endfor %}
+
+  {% for modal in site.data.inktober2019modal %}
   <div class="myartModal">
     <img src="{{ modal.url }}" alt="{{ modal.caption }}">
     <div class="modal-info">
