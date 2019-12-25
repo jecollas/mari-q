@@ -1,2 +1,2 @@
 # mari-q
-Place for my stories to live
+A personal/portfolio website
