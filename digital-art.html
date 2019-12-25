@@ -1,0 +1,71 @@
+---
+layout: default
+title: Digital Art
+---
+
+{% assign g1count = site.data.digital.gallery1.size %}
+{% assign g2count = site.data.digital.gallery2.size %}
+{% assign g3count = site.data.digital.gallery3.size %}
+{% assign g4count = site.data.digital.gallery4.size %}
+
+  <h2 id="digital-art">Digital Art</h2>
+
+  <div class="row">
+    <div class="column">
+      {% for art in site.data.digital.gallery1 %}
+      <img src="{{ art.url }}" onclick="openModal();art({{ forloop.index }})"
+      class="{{ art.orientation }}" alt="{{ art.alt }}">
+        <div class="info">
+          {{ art.caption }}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="column">
+      {% for art in site.data.digital.gallery2 %}
+      <img src="{{ art.url }}" onclick=
+      "openModal();art({{ forloop.index | plus:g1count }})" class="{{ art.orientation }}" alt="{{ art.alt }}">
+        <div class="info">
+          {{ art.caption }}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="column">
+      {% for art in site.data.digital.gallery3 %}
+      <img src="{{ art.url }}" onclick=
+      "openModal();art({{ forloop.index | plus:g1count | plus:g2count }})" class="{{ art.orientation }}" alt="{{ art.alt }}">
+        <div class="info">
+          {{ art.caption }}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="column">
+      {% for art in site.data.digital.gallery4 %}
+      <img src="{{ art.url }}" onclick=
+      "openModal();art({{ forloop.index | plus:g1count | plus:g2count | plus:g3count }})" class="{{ art.orientation }}" alt="{{ art.alt }}">
+        <div class="info">
+          {{ art.caption }}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div id="artModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+
+    {% for modal in site.data.digitalmodal %}
+    <div class="myartModal">
+      <img src="{{ modal.url }}" alt="{{ modal.caption }}">
+      <div class="modal-info">
+        {{ modal.caption }}
+      </div>
+    </div>
+    {% endfor %}
+
+    <div class="caption-container">
+      <p id="captionDigital"></p>
+    </div>
+
+  </div>
