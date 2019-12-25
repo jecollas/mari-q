@@ -1,0 +1,105 @@
+
+# 1 3 5 7 9 11
+# 2 4 6 8 10 12
+# 13 15 17 19 21 23
+# 14 16 18 20 22
+
+#gallery1
+
+- url: img/inktober1.jpg
+  caption: Day 1, Ring
+  orientation: portrait
+
+- url: img/inktober3.jpg
+  caption: Day 3, Bait
+  orientation: portrait
+
+- url: img/inktober5.jpg
+  caption: Day 5, Build
+  orientation: portrait
+
+- url: img/inktober7.jpg
+  caption: Day 7, Enchanted
+  orientation: portrait
+
+- url: img/inktober9.jpg
+  caption: Day 9, Swing
+  orientation: portrait
+
+- url: img/inktober11.jpg
+  caption: Day 11, Snow
+  orientation: portrait
+
+#gallery2
+
+- url: img/inktober2.jpg
+  caption: Day 2, Mindless
+  orientation: portrait
+
+- url: img/inktober4.jpg
+  caption: Day 4, Freeze
+  orientation: portrait
+
+- url: img/inktober6.jpg
+  caption: Day 6, Husky
+  orientation: portrait
+
+- url: img/inktober8.jpg
+  caption: Day 8, Frail
+  orientation: portrait
+
+- url: img/inktober10.jpg
+  caption: Day 10, Pattern
+  orientation: portrait
+
+- url: img/inktober12.jpg
+  caption: Day 12, Dragon
+  orientation: portrait
+
+#gallery3
+
+- url: img/inktober13.jpg
+  caption: Day 13, Ash
+  orientation: portrait
+
+- url: img/inktober15.jpg
+  caption: Day 15, Legend
+  orientation: portrait
+
+- url: img/inktober17.jpg
+  caption: Day 17, Ornament
+  orientation: portrait
+
+- url: img/inktober19.jpg
+  caption: Day 19, Swing
+  orientation: portrait
+
+- url: img/inktober21.jpg
+  caption: Day 21, Treasure
+  orientation: portrait
+
+- url: img/inktober23.jpg
+  caption: Day 23, Ancient
+  orientation: portrait
+
+#gallery4
+
+- url: img/inktober14.jpg
+  caption: Day 14, Overgrown
+  orientation: portrait
+
+- url: img/inktober16.jpg
+  caption: Day 16, Wild
+  orientation: portrait
+
+- url: img/inktober18.jpg
+  caption: Day 18, Misfit
+  orientation: portrait
+
+- url: img/inktober20.jpg
+  caption: Day 20, Tread
+  orientation: portrait
+
+- url: img/inktober22.jpg
+  caption: Day 22, Ghost
+  orientation: portrait

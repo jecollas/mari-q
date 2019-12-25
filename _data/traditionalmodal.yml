@@ -12,32 +12,8 @@
   caption: Weapon X c.1941
   orientation: portrait
 
-- url: img/beholding.jpg
-  caption: Better to Behold
-  orientation: portrait
-
-- url: img/inktober1.jpg
-  caption: Day 1, Ring
-  orientation: portrait
-
-- url: img/inktober5.jpg
-  caption: Day 5, Build
-  orientation: portrait
-
-- url: img/inktober9.jpg
-  caption: Day 9, Swing
-  orientation: portrait
-
-- url: img/inktober13.jpg
-  caption: Day 13, Ash
-  orientation: portrait
-
-- url: img/inktober17.jpg
-  caption: Day 17, Ornament
-  orientation: portrait
-
-- url: img/inktober21.jpg
-  caption: Day 21, Treasure
+- url: img/violetweb.jpg
+  caption: Violet Web
   orientation: portrait
 
 #gallery2
@@ -57,32 +33,8 @@
   caption: Onyx
   orientation: portrait
 
-- url: img/comingoutday2019.jpg
-  caption: National Coming Out Day, 2019
-  orientation: portrait
-
-- url: img/inktober2.jpg
-  caption: Day 2, Mindless
-  orientation: portrait
-
-- url: img/inktober6.jpg
-  caption: Day 6, Husky
-  orientation: portrait
-
-- url: img/inktober10.jpg
-  caption: day 10, Pattern
-  orientation: portrait
-
-- url: img/inktober14.jpg
-  caption: Day 14, Overgrown
-  orientation: portrait
-
-- url: img/inktober18.jpg
-  caption: Day 18, Misfit
-  orientation: portrait
-
-- url: img/inktober22.jpg
-  caption: Day 22, Ghost
+- url: img/watcherscrown.jpg
+  caption: The Watcher's Crown
   orientation: portrait
 
 #gallery3
@@ -102,32 +54,8 @@
   caption: C'mon, Blast Me
   orientation: landscape
 
-- url: img/watcherscrown.jpg
-  caption: The Watcher's Crown
-  orientation: portrait
-
-- url: img/inktober3.jpg
-  caption: Day 3, Bait
-  orientation: portrait
-
-- url: img/inktober7.jpg
-  caption: Day 7, Enchanted
-  orientation: portrait
-
-- url: img/inktober11.jpg
-  caption: Day 11, Snow
-  orientation: portrait
-
-- url: img/inktober15.jpg
-  caption: Day 15, Legend
-  orientation: portrait
-
-- url: img/inktober19.jpg
-  caption: Day 19, Swing
-  orientation: portrait
-
-- url: img/inktober23.jpg
-  caption: Day 23, Ancient
+- url: img/beholding.jpg
+  caption: Better to Behold
   orientation: portrait
 
 #gallery4
@@ -151,26 +79,6 @@
   caption: Wolverine Vol. 12
   orientation: portrait
 
-- url: img/inktober4.jpg
-  caption: Day 4, Freeze
-  orientation: portrait
-
-- url: img/inktober8.jpg
-  caption: Day 8, Frail
-  orientation: portrait
-
-- url: img/inktober12.jpg
-  caption: Day 12, Dragon
-  orientation: portrait
-
-- url: img/inktober16.jpg
-  caption: Day 16, Wild
-  orientation: portrait
-
-- url: img/inktober20.jpg
-  caption: Day 20, Tread
-  orientation: portrait
-
-- url: img/violetweb.jpg
-  caption: Violet Web
-  orientation: portrait
+- url: img/comingoutday2019.jpg
+  caption: National Coming Out Day, 2019
+  orientation: landscape
