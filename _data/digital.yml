@@ -58,6 +58,11 @@ gallery2:
   caption: February, 2017
   orientation: portrait
 
+- url: tb/merla_outfit_bingo.png
+  alt: Merla Dappledown
+  caption: August, 2020
+  orientation: portrait
+
 gallery3:
 #gallery3
 - url: tb/kda.png
