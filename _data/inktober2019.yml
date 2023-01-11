@@ -1,4 +1,3 @@
-
 gallery1:
 
 - url: tb/inktober1.jpg
@@ -58,27 +57,27 @@ gallery2:
   caption: Day 10, Husky
   orientation: portrait
 
-- url: tb/inktober12.jpg
-  alt: Inktober 2019, Day 12
-  caption: Day 12, Dragon
-  orientation: portrait
+# - url: tb/inktober12.jpg
+#   alt: Inktober 2019, Day 12
+#   caption: Day 12, Dragon
+#   orientation: portrait
 
 gallery3:
 
-- url: tb/inktober13.jpg
-  alt: Inktober 2019, Day 13
-  caption: Day 13, Ash
-  orientation: portrait
+# - url: tb/inktober13.jpg
+#   alt: Inktober 2019, Day 13
+#   caption: Day 13, Ash
+#   orientation: portrait
 
-- url: tb/inktober15.jpg
-  alt: Inktober 2019, Day 15
-  caption: Day 15, Legend
-  orientation: portrait
+# - url: tb/inktober15.jpg
+#   alt: Inktober 2019, Day 15
+#   caption: Day 15, Legend
+#   orientation: portrait
 
-- url: tb/inktober17.jpg
-  alt: Inktober 2019, Day 17
-  caption: Day 17, Ornament
-  orientation: portrait
+# - url: tb/inktober17.jpg
+#   alt: Inktober 2019, Day 17
+#   caption: Day 17, Ornament
+#   orientation: portrait
 
 - url: tb/inktober19.jpg
   alt: Inktober 2019, Day 19
@@ -107,10 +106,10 @@ gallery4:
   caption: Day 16, Wild
   orientation: portrait
 
-- url: tb/inktober18.jpg
-  alt: Inktober 2019, Day 18
-  caption: Day 18, Misfit
-  orientation: portrait
+# - url: tb/inktober18.jpg
+#   alt: Inktober 2019, Day 18
+#   caption: Day 18, Misfit
+#   orientation: portrait
 
 - url: tb/inktober20.jpg
   alt: Inktober 2019, Day 20

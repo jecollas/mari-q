@@ -1,4 +1,3 @@
-
 # 1 3 5 7 9 11
 # 2 4 6 8 10 12
 # 13 15 17 19 21 23
@@ -52,23 +51,23 @@
   caption: Day 10, Pattern
   orientation: portrait
 
-- url: img/inktober12.jpg
-  caption: Day 12, Dragon
-  orientation: portrait
+# - url: img/inktober12.jpg
+#   caption: Day 12, Dragon
+#   orientation: portrait
 
 #gallery3
 
-- url: img/inktober13.jpg
-  caption: Day 13, Ash
-  orientation: portrait
+# - url: img/inktober13.jpg
+#   caption: Day 13, Ash
+#   orientation: portrait
 
-- url: img/inktober15.jpg
-  caption: Day 15, Legend
-  orientation: portrait
+# - url: img/inktober15.jpg
+#   caption: Day 15, Legend
+#   orientation: portrait
 
-- url: img/inktober17.jpg
-  caption: Day 17, Ornament
-  orientation: portrait
+# - url: img/inktober17.jpg
+#   caption: Day 17, Ornament
+#   orientation: portrait
 
 - url: img/inktober19.jpg
   caption: Day 19, Swing
@@ -78,9 +77,9 @@
   caption: Day 21, Treasure
   orientation: portrait
 
-- url: img/inktober23.jpg
-  caption: Day 23, Ancient
-  orientation: portrait
+# - url: img/inktober23.jpg
+#   caption: Day 23, Ancient
+#   orientation: portrait
 
 #gallery4
 
@@ -92,9 +91,9 @@
   caption: Day 16, Wild
   orientation: portrait
 
-- url: img/inktober18.jpg
-  caption: Day 18, Misfit
-  orientation: portrait
+# - url: img/inktober18.jpg
+#   caption: Day 18, Misfit
+#   orientation: portrait
 
 - url: img/inktober20.jpg
   caption: Day 20, Tread
