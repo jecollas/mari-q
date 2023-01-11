@@ -90,10 +90,10 @@ gallery3:
   caption: Day 21, Treasure
   orientation: portrait
 
-- url: tb/inktober23.jpg
-  alt: Inktober 2019, Day 23
-  caption: Day 23, Ancient
-  orientation: portrait
+# - url: tb/inktober23.jpg
+#   alt: Inktober 2019, Day 23
+#   caption: Day 23, Ancient
+#   orientation: portrait
 
 gallery4:
 
