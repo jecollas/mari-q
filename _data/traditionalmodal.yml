@@ -1,4 +1,3 @@
-
 #gallery1
 - url: img/alienqueen.jpg
   caption: Alien Queen
@@ -14,6 +13,22 @@
 
 - url: img/violetweb.jpg
   caption: Violet Web
+  orientation: portrait
+
+- url: tb/spider_clotho.jpg
+  caption: Spider & the Maiden (1/3)
+  orientation: portrait
+
+- url: tb/death_atropos.jpg
+  caption: Death & the Crone (3/3)
+  orientation: portrait
+
+- url: tb/lachesis_sketch.jpg
+  caption: Puppet & the Mother (sketch)
+  orientation: portrait
+
+- url: tb/inthedark.jpg
+  caption: Something in the Dark
   orientation: portrait
 
 #gallery2
@@ -37,6 +52,22 @@
   caption: The Watcher's Crown
   orientation: portrait
 
+- url: tb/puppet_lachesis.jpg
+  caption: Puppet & the Mother (2/3)
+  orientation: portrait
+
+- url: tb/clotho_sketch.jpg
+  caption: Spider & the Maiden (sketch)
+  orientation: portrait
+
+- url: tb/atropos_sketch.jpg
+  caption: Death & the Crone (sketch)
+  orientation: portrait
+
+- url: tb/toolate.jpg
+  caption: Where can you go? It's already too late.
+  orientation: landscape
+
 #gallery3
 - url: img/illbewaiting.jpg
   caption: I'll Be Waiting
@@ -56,6 +87,22 @@
 
 - url: img/beholding.jpg
   caption: Better to Behold
+  orientation: portrait
+
+- url: tb/darkmerla.jpg
+  caption: Penalty Game!
+  orientation: landscape
+
+- url: tb/naenya_adara.jpg
+  caption: Character design for Adara and Naenya
+  orientation: portrait
+
+- url: tb/seramaris_commission.jpg
+  caption: Ser Amaris
+  orientation: portrait
+
+- url: tb/selfstarplatinum.jpg
+  caption: Star Platinum in Ballpoint and Marker
   orientation: portrait
 
 #gallery4
@@ -82,3 +129,19 @@
 - url: img/comingoutday2019.jpg
   caption: National Coming Out Day, 2019
   orientation: landscape
+
+- url: tb/naenya_closeup.jpg
+  caption: Naenya in portrait
+  orientation: portrait
+
+- url: tb/naenya.jpg
+  caption: Sketches of the Moon Goddess
+  orientation: portrait
+
+- url: tb/countamadeo_commission.jpg
+  caption: Count Amadeo
+  orientation: portrait
+
+- url: tb/atlaspin.jpg
+  caption: Hello! My name is the Atlas Pin <3
+  orientation: portrait

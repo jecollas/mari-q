@@ -36,6 +36,7 @@ h3 {
 
 h4 {
   text-align: center;
+  font-size: 22px;
 }
 
 body {
@@ -54,21 +55,29 @@ p {
   margin-left: 2em;
   margin-right: 2em;
   font-size: 20px;
-  text-indent: 2em;
+}
+
+/* Links page */
+.links p {
+  font-size: 18px;
   line-height: 1.5;
 }
 
-.links p {
-  font-size: 20px;
-  line-height: 2;
-}
-
 .links ul {
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 2em;
   margin-right: 2em;
 }
 
+.links a.active {
+  font-weight: bold;
+}
+
+.links a :not(.active) {
+  text-decoration: underline;
+}
+
+/* Contacts page */
 .contacts ul {
   float: left;
   text-align: left;
@@ -86,7 +95,6 @@ p {
 }
 
 /* links */
-
 .navbar ul {
   list-style-type: none;
   margin: 0;
@@ -159,7 +167,6 @@ a:active {
 }
 
 /* images */
-
 .info {
   text-align: center;
   font-size: 18px;
@@ -353,8 +360,8 @@ img.landscape:hover {
 
 .topside p {
   text-align: center;
-  margin-bottom: 2em;
-  font-size: 25px;
+  margin: 2em;
+  font-size: 20px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
