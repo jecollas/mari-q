@@ -8,12 +8,12 @@ function closeModal() {
   document.getElementById('artModal').style.display = "none";
 }
 
+// Thumbnail image controls
+// Opens the modal
 function art(n) {
   showSlides(slideIndex = n);
 }
 
-// Thumbnail image controls
-// Opens the modal
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("myartModal");
@@ -40,19 +40,19 @@ window.addEventListener('keydown', function(event) {
 //   }
 // }
 
-document.addEventListener(
-  'click',
-  function(event) {
-    // If user either clicks X button OR clicks outside the modal window, then close modal by calling closeModal()
-    if (
-      event.target.matches(".close") ||
-      !event.target.closest(".modal")
-    ) {
-      closeModal()
-    }
-  },
-  false
-)
+// document.addEventListener(
+//   'click',
+//   function(event) {
+//     // If user either clicks X button OR clicks outside the modal window, then close modal by calling closeModal()
+//     if (
+//       event.target.matches(".close") ||
+//       !event.target.closest(".modal")
+//     ) {
+//       closeModal()
+//     }
+//   },
+//   false
+// )
 
 // var slideIndex = 1;
 // showSlides(slideIndex);
