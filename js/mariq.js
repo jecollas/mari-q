@@ -1,12 +1,29 @@
-var modal = document.getElementById('artModal');
+var modal = document.getElementById("artModal");
 
 function openModal() {
-  document.getElementById('artModal').style.display = "block";
+  modal.style.display = "block";
 }
 
 function closeModal() {
-  document.getElementById('artModal').style.display = "none";
+  modal.style.display = "none";
 }
+
+var digital = document.getElementById("digitalDisplay");
+var doodle = document.getElementById("doodleDisplay");
+var inky = document.getElementById("inkyDisplay");
+
+window.onclick = function(event) {
+  if (event.target === modal || event.target != (digital || doodle || inky)) {
+    // modal.style.display = "none";
+    closeModal();
+  }
+}
+
+window.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape') {
+    closeModal();
+  }
+})
 
 // Thumbnail image controls
 // Opens the modal
@@ -20,24 +37,17 @@ function showSlides(n) {
 
   var captionText = document.getElementById("captionDigital");
   document.getElementById("captionTraditional");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+
+  if (n > slides.length) {
+    slideIndex = 1
+  }
+  if (n < 1) {
+    slideIndex = slides.length
+  }
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
   slides[slideIndex-1].style.display = "block";
-}
-
-window.addEventListener('keydown', function(event) {
-  if (event.key === 'Escape') {
-    modal.style.display = 'none'
-  }
-})
-
-window.onclick = function(event) {
-if (event.target == modal) {
-    modal.style.display = "none";
-  }
 }
 
 // document.addEventListener(
