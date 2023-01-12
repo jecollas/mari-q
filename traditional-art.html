@@ -8,10 +8,10 @@ title: Traditional Art
 {% assign g3count = site.data.traditional.gallery3.size %}
 {% assign g4count = site.data.traditional.gallery4.size %}
 
-{% assign g5count = site.data.inktober2019.gallery1.size %}
-{% assign g6count = site.data.inktober2019.gallery2.size %}
-{% assign g7count = site.data.inktober2019.gallery3.size %}
-{% assign g8count = site.data.inktober2019.gallery4.size %}
+{% assign g5count = site.data.inktober.gallery1.size %}
+{% assign g6count = site.data.inktober.gallery2.size %}
+{% assign g7count = site.data.inktober.gallery3.size %}
+{% assign g8count = site.data.inktober.gallery4.size %}
 
 <h2 id="traditional-art">Traditional Art</h2>
 
@@ -61,7 +61,7 @@ title: Traditional Art
 
 <div class="row">
   <div class="column">
-    {% for art in site.data.inktober2019.gallery1 %}
+    {% for art in site.data.inktober.gallery1 %}
     <img src="{{ art.url }}" onclick="openModal();art({{ forloop.index | plus:g1count | plus:g2count | plus:g3count | plus:g4count }})"
     class="{{ art.orientation }}" alt="{{ art.alt }}">
       <div class="info">
@@ -71,7 +71,7 @@ title: Traditional Art
   </div>
 
   <div class="column">
-    {% for art in site.data.inktober2019.gallery2 %}
+    {% for art in site.data.inktober.gallery2 %}
     <img src="{{ art.url }}" onclick="openModal();art({{ forloop.index | plus:g1count | plus:g2count | plus:g3count | plus:g4count | plus:g5count }})"
     class="{{ art.orientation }}" alt="{{ art.alt }}">
       <div class="info">
@@ -81,7 +81,7 @@ title: Traditional Art
   </div>
 
   <div class="column">
-    {% for art in site.data.inktober2019.gallery3 %}
+    {% for art in site.data.inktober.gallery3 %}
     <img src="{{ art.url }}" onclick="openModal();art({{ forloop.index | plus:g1count | plus:g2count | plus:g3count | plus:g4count | plus:g5count | plus:g6count }})"
     class="{{ art.orientation }}" alt="{{ art.alt }}">
       <div class="info">
@@ -91,7 +91,7 @@ title: Traditional Art
   </div>
 
   <div class="column">
-    {% for art in site.data.inktober2019.gallery4 %}
+    {% for art in site.data.inktober.gallery4 %}
     <img src="{{ art.url }}" onclick="openModal();art({{ forloop.index | plus:g1count | plus:g2count | plus:g3count | plus:g4count | plus:g5count | plus:g6count | plus:g7count }})"
     class="{{ art.orientation }}" alt="{{ art.alt }}">
       <div class="info">
@@ -114,7 +114,7 @@ title: Traditional Art
   </div>
   {% endfor %}
 
-  {% for modal in site.data.inktober2019modal %}
+  {% for modal in site.data.inktobermodal %}
   <div class="myartModal">
     <img src="{{ modal.url }}" alt="{{ modal.caption }}">
     <div class="modal-info">

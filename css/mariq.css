@@ -1,17 +1,46 @@
 /* mari q css */
 
-/* header and title stuff */
+/* Main selectors */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #191A1B;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+p {
+  margin: .5em;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #191A1B;
+}
+
+a:active {
+  color: #84339A;
+}
+
+img {
+  width: 100%;
+  margin-bottom: -4px;
+}
+
+nav {
+  background-color: #F1F1F1;
+}
 
 header {
   padding-top: 2em;
   padding-bottom: .5em;
   background-color: #F1F1F1;
-}
-
-.mari-q {
-  display: block;
-  top: 0;
-  width: 100%;
 }
 
 h1 {
@@ -39,22 +68,26 @@ h4 {
   font-size: 22px;
 }
 
-body {
-  font-family: 'Raleway', sans-serif;
-  color: #191A1B;
-  margin: 0;
-  overflow-x: hidden;
+/* Main classes */
+.mari-q {
+  display: block;
+  top: 0;
+  width: 100%;
 }
 
-nav {
-  background-color: #F1F1F1;
+
+
+.active {
+  color: #D969C4;
 }
 
-p {
-  margin: .5em;
-  margin-left: 2em;
-  margin-right: 2em;
-  font-size: 20px;
+.indent {
+  text-indent: 2em;
+}
+
+.info {
+  text-align: center;
+  font-size: 18px;
 }
 
 /* Links page */
@@ -69,11 +102,15 @@ p {
   margin-right: 2em;
 }
 
+.links a {
+  text-align: inherit;
+}
+
 .links a.active {
   font-weight: bold;
 }
 
-.links a :not(.active) {
+.links a:not(.active) {
   text-decoration: underline;
 }
 
@@ -90,9 +127,7 @@ p {
   text-align: left;
 }
 
-.indent {
-  text-indent: 2em;
-}
+
 
 /* links */
 .navbar ul {
@@ -110,11 +145,11 @@ p {
   padding-left: 2em;
 }
 
-.nava li {
+/* .nava li {
   float: left;
   width: 50%;
   list-style-type: none;
-}
+} */
 
 li a {
   display: block;
@@ -122,15 +157,6 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-  color: #191A1B;
-}
-
-.links a {
-  text-align: inherit;
 }
 
 .subnav ul {
@@ -141,47 +167,19 @@ a {
   text-align: left;
 }
 
-.active {
-  color: #D969C4;
-}
-
 .navbar a:hover,
 a:hover {
   color: #D969C4;
   text-decoration: none;
 }
 
-a:active {
-  color: #84339A;
-}
-
-.carousel-item img {
-   max-height: 75%;
-   max-width: 75%;
-   display: block;
-   margin-top: 2em;
-   margin-left: auto;
-   margin-right: auto;
-   border: 2px;
-   border-radius: 12px;
-}
-
 /* images */
-.info {
-  text-align: center;
-  font-size: 18px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 2em;
 }
 
 .column {
@@ -197,21 +195,11 @@ a:active {
   padding: 1em;
 }
 
-img {
-  width: 100%;
-  margin-bottom: -4px;
-}
-
 .profile img {
   width: auto;
   max-height: 500px;
   float: left;
   margin: 2em;
-}
-
-img.portrait:hover,
-img.landscape:hover {
-  opacity: .8;
 }
 
 .portrait {
@@ -222,11 +210,12 @@ img.landscape:hover {
   border-radius: 15%;
 }
 
-.row {
-  padding: 2em;
+img.portrait:hover,
+img.landscape:hover {
+  opacity: .8;
 }
 
-/* The Modal (background) */
+/* Modal stuff */
 .modal {
   display: none;
   z-index: 1;
@@ -240,34 +229,24 @@ img.landscape:hover {
   background-color: rgba(0,0,0,0.9);
 }
 
-/* Modal Content */
-.modal-content {
+/* .modal-content {
   position: relative;
   background-color: #fefefe;
   margin: auto;
   padding: 0;
   width: 90%;
   max-width: 1200px;
+} */
+
+.modal-info {
+  text-align: center;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding-bottom: 100px;
+  padding-top: 10px;
 }
 
-.mySlides {
-  margin:auto;
-  display: block;
-  height: inherit;
-  width: auto;
-}
-
-.mySlides img {
-  max-height: 640px;
-  width: auto;
-  align-content: center;
-  /* position: absolute; */
-  left: 0;
-  right: 0;
-  margin: auto;
-  display: block;
-}
-
+/* NEED THIS */
 .myartModal img {
   width: 80%;
   height: auto;
@@ -279,9 +258,9 @@ img.landscape:hover {
   display: block;
 }
 
-.cursor {
+/* .cursor {
   cursor: pointer;
-}
+} */
 
 .close {
   color: white;
@@ -299,8 +278,65 @@ img.landscape:hover {
   cursor: pointer;
 }
 
+.caption-container {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* .topside img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+  margin-bottom: 2em;
+  min-width: 180px;
+  max-width: 180px;
+} */
+
+.topside p {
+  text-align: center;
+  margin: 2em;
+  font-size: 20px;
+}
+
+/* Carousel stuff. Delete later */
+/* .carousel-item img {
+  max-height: 75%;
+  max-width: 75%;
+  display: block;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px;
+  border-radius: 12px;
+} */
+
+/* .mySlides {
+  margin:auto;
+  display: block;
+  height: inherit;
+  width: auto;
+}
+
+.mySlides img {
+  max-height: 640px;
+  width: auto;
+  align-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+} */
+
 /* Next & previous buttons */
-.prev,
+/* .prev,
 .next {
   cursor: pointer;
   position: absolute;
@@ -315,54 +351,19 @@ img.landscape:hover {
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
-}
+} */
 
 /* Position the "next button" to the right */
-.next {
+/* .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-}
+} */
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
+/* .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
-}
-
-.caption-container {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-.modal-info {
-  text-align: center;
-  font-size: 20px;
-  color: #FFFFFF;
-  padding-bottom: 100px;
-  padding-top: 10px;
-}
-
-.topside img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 4em;
-  margin-bottom: 2em;
-  min-width: 180px;
-  max-width: 180px;
-}
-
-.topside p {
-  text-align: center;
-  margin: 2em;
-  font-size: 20px;
-}
+} */
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
