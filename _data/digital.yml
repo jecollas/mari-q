@@ -1,4 +1,3 @@
-
 gallery1:
 #gallery1
 - url: tb/ashs-bday.png
@@ -95,6 +94,11 @@ gallery3:
   caption: September, 2019
   orientation: portrait
 
+- url: tb/lukecarson.png
+  alt: Luke Carson
+  caption: September, 2020
+  orientation: portrait
+
 gallery4:
 #gallery4
 - url: tb/space-race.png
@@ -125,4 +129,9 @@ gallery4:
 - url: tb/soulmatespell.png
   alt: Sigil Painting
   caption: May, 2019
+  orientation: portrait
+
+- url: tb/jones.png
+  alt: Jones
+  caption: September, 2020
   orientation: portrait
